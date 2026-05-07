@@ -2,7 +2,7 @@ from item import Item
 
 class Phone(Item):
 
-    def __init__(self, name: str, price: float, broken_phones=0, quantity=0):
+    def __init__(self, name: str, price: float, broken_phones=0, quantity: int=0):
         # Call to super function to have access to all class attributes and methods
         super().__init__(name, price, quantity)
 
